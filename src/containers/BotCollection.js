@@ -4,7 +4,7 @@ import BotCard from "../components/BotCard";
 const BotCollection = props => {
   // const botSelected = bot =>
   //   props.selectedBot.find(chosenBot => chosenBot.id === bot.id);
-
+// eslint-disable-next-line
   const handleClick = fn => event => fn();
 
   return (
